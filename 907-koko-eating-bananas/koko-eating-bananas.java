@@ -6,7 +6,7 @@ class Solution {
             high=Math.max(high,pile);
 
         }
-        while(low<high){
+        while(low<high){ 
             int mid =low+(high-low)/2;
             long hours=0;
             for(int pile:piles){
